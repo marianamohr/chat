@@ -1,12 +1,14 @@
-<div class="container-fluid mt-3">
-    <h1>CoderZap</h1>
-    <div>
-        <input id="chatBox" placeholder="Mensagem Aqui">
+<div class="phone-frame">
+        <div class="container-fluid">
+            <h1>CoderZap</h1>
+            <div>
+                <input id="chatBox" placeholder="Mensagem Aqui">
+            </div>
+            <div>
+                <div id="messageLogs"></div>
+            </div>
+        </div>
     </div>
-    <div>
-        <p id="messageLogs"></p>
-    </div>
-</div>
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

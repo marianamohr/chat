@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const staticPath = path.join(`${__dirname}/public`);
-
+console.log(staticPath)
 app.use("/static", express.static(staticPath));
 
 app.use("/", viewsRouter);
